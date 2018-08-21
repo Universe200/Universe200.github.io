@@ -1,0 +1,44 @@
+body {
+	padding: 70px;
+}
+
+.jumbotron {
+	color: #2c3e50;
+	background: #ecf0f1;
+	font-family: 'Jua';
+}
+
+h1::selection, p::selection, small::selection {
+	color: yellow;
+	background: none;
+}
+
+img::selection {
+	background: none;
+}
+
+.navbar {
+	background: #2c3e50;
+}
+
+.navbar .navbar-nav > li > a {
+	color: #fff;
+}
+
+.navbar .navbar-header > .navbar-brand {
+	color: #fff;
+}
+
+.thumbnail {
+	transition: all 1s;
+}
+
+.thumbnail:hover {
+	transform: scale(1.1);
+	box-shadow: 0 0 20px lightblue;
+}
+
+small {
+	font-weight: bold;
+	font-size: 2.0em;
+}
